@@ -1,30 +1,30 @@
 'use strict';
 
-var gulp = require('gulp'),
-    pug = require('gulp-pug'), // Припроцесор HTML
-    browserSync = require('browser-sync'),// Серсер для обновлення і синхронізації сторінки
-    concat = require('gulp-concat'),
-    sourcemaps = require('gulp-sourcemaps'),// плагін для побудови карт в scss і js
-    uglify = require('gulp-uglifyjs'),
-    csso = require('gulp-csso'),
-    rename = require('gulp-rename'),
-    del = require('del'),  // для видалення попок файлів
-    imagemin = require('gulp-imagemin'),
-    pngquant = require('imagemin-pngquant'),
-    sass = require('gulp-sass'),
-    cache = require('gulp-cache'),
-    plumber = require("gulp-plumber"), // щоб ловити помилки в потоці
-    notify = require("gulp-notify"),
-    //newer = require("gulp-newer"),
-    autoprefixer = require('gulp-autoprefixer'),// плагін для css добаляє префікси до різних браузерів
-    imageminJpegRecompress = require("imagemin-jpeg-recompress"),
-    webp = require("gulp-webp"),
-    svgmin = require("gulp-svgmin"),
-    cheerio = require("gulp-cheerio"),
-    replace = require("gulp-replace"),
-    svgSprite = require("gulp-svg-sprite");
+const gulp = require('gulp');
+const pug = require('gulp-pug'); // Припроцесор HTML
+const browserSync = require('browser-sync');// Серсер для обновлення і синхронізації сторінки
+const concat = require('gulp-concat');
+const sourcemaps = require('gulp-sourcemaps');// плагін для побудови карт в scss і js
+const uglify = require('gulp-uglifyjs');
+const csso = require('gulp-csso');
+const rename = require('gulp-rename');
+const del = require('del');  // для видалення папок файлів
+const imagemin = require('gulp-imagemin');
+const pngquant = require('imagemin-pngquant');
+const sass = require('gulp-sass');
+const cache = require('gulp-cache');
+const plumber = require("gulp-plumber"); // щоб ловити помилки в потоці
+const notify = require("gulp-notify");
+// const newer = require("gulp-newer");
+const autoprefixer = require('gulp-autoprefixer');// плагін для css добаляє префікси до різних браузерів
+const imageminJpegRecompress = require("imagemin-jpeg-recompress");
+const webp = require("gulp-webp");
+const svgmin = require("gulp-svgmin");
+const cheerio = require("gulp-cheerio");
+const replace = require("gulp-replace");
+const svgSprite = require("gulp-svg-sprite");
 
-var way = {
+const way = {
   "root": "./public",
   "theme": "frontend/pug/pages/*.pug",
   "style": "frontend/style/main.scss",
@@ -35,7 +35,7 @@ var way = {
 };
 
 //бібліотеки які нам потрібні і всі js файли
-var js = [
+const js = [
   'frontend/js/libs/jquery-3.1.1.min.js'
 ];
 
