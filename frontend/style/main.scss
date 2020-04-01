@@ -1,0 +1,14 @@
+@import "../../node_modules/normalize-scss/fork-versions/default/normalize";
+
+//Настройки
+@import "var";
+@import "icon";
+@import "fonts";
+@import "global";
+
+
+
+//Секції
+@import "section/header";
+@import "section/index";
+@import "section/footer";

@@ -1,0 +1,108 @@
+.footer {
+}
+.wrap-footer {
+  padding: $gutter;
+  background-color: #495052;
+}
+.about-us {
+  width: 50%;
+}
+.footer__title {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.about-us__content {
+  color: #ffffff;
+  line-height: 22px;
+  font-size: 15px;
+}
+.footer__line {
+  width: 50px;
+  height: 3px;
+  background: #ffffff;
+  margin: 10px 0;
+}
+.gallerei {
+  width: 25%;
+}
+.gallerei__item {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 6px;
+  &:hover {
+    opacity: 0.6;
+    border-color: #ffffff;
+    transition: 0.8s;
+  }
+}
+.contact-footer {
+  width: 25%;
+}
+
+.gallerei,
+.about-us,
+.contact-footer {
+  margin: 5;
+}
+
+.contact-footer-help {
+  color: #ffffff;
+  line-height: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.form-text {
+  margin: 5px 0;
+  font-size: 15px;
+  width: 90%;
+  padding: 10px 5%;
+  background-color: #404547;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 0px 0px #353b3d;
+}
+.button {
+  text-align: center;
+  border: 0;
+  padding: 10px 5%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 0px 0px #353b3d;
+}
+.button__footer-submit {
+  color: #ffffff;
+  background-color: #6fc191;
+  box-shadow: 0px 4px 0px 0px #6AB78A;  
+}
+.footer-line-info {
+  padding: $gutter;
+  background-color: #404547;
+}
+.footer-line-info-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-icon{
+  font-size: 30px;  
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+}
+.social-facebook{  
+  background-color: #5977b8;
+  box-shadow: 0px 4px 0px 0px #4c67a1;
+
+  &:hover {
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 0px 0px #4c67a1;
+    margin-top: 4px;
+    margin-bottom: -4px;
+  }
+}
+.form-color-white {
+  background-color: #F1F1F1;
+  box-shadow: 0px 4px 0px 0px #E5E5E5;
+}

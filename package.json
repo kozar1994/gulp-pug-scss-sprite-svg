@@ -1,0 +1,39 @@
+{
+  "name": "gulp-start-tamplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^6.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-webp": "^4.0.0",
+    "gulp-svgmin": "^2.1.0",
+    "imagemin-jpeg-recompress": "^6.0.0"
+  },
+  "dependencies": {
+    "gulp-cheerio": "^1.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "normalize-scss": "^7.0.1"
+  }
+}
